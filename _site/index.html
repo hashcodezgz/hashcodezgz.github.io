@@ -2,67 +2,59 @@
 <html>
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="You can edit this line in _config.yml. It will appear in your document  head meta (for Google search results) and in your feed.xml site  description.
-">
+    <meta name="description" content="Google HashCode Hub, UNIZAR, Zaragoza">
     <meta name="author" content="Borja Espejo">
-
     <title>Hash Code Zaragoza</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-        function initialize() {
-            var mapCanvas = document.getElementById('map');
-            var myLatLng = {
-                lat: 41.683944,
-                lng: -0.888854
-            };
-            var mapOptions = {
-                center: myLatLng,
-                zoom: 18,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                scrollwheel: false
-            }
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'EINA',
-                animation: google.maps.Animation.DROP
-            });
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-            marker.setMap(map);
+    function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var myLatLng = {
+            lat: 41.683944,
+            lng: -0.888854
+        };
+        var mapOptions = {
+            center: myLatLng,
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
         }
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'EINA',
+            animation: google.maps.Animation.DROP
+        });
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        marker.setMap(map);
+    }
 
-        function toggleBounce() {
-            if (marker.getAnimation() !== null) {
-                marker.setAnimation(null);
-            } else {
-                marker.setAnimation(google.maps.Animation.BOUNCE);
-            }
+    function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+            marker.setAnimation(null);
+        } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
         }
-        google.maps.event.addDomListener(window, 'load', initialize);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-
 </head>
 
 <body>
@@ -91,13 +83,10 @@
         </div>
         <!-- /.container -->
     </nav>
-
     <section id="home">
         <!-- Header -->
         <div class="intro-header">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="intro-message">
@@ -107,7 +96,6 @@
                             <h2>¿Aceptas el reto?</h2>
                             <!--<hr class="intro-divider">-->
                             <ul class="list-inline intro-social-buttons">
-
                                 <li>
                                     <a href="https://hashcode.withgoogle.com/signup.html" class="btn btn-default btn-lg sign-up"><span class="network-name">Regístrate</span></a>
                                 </li>
@@ -115,64 +103,81 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- /.container -->
-
         </div>
         <!-- /.intro-header -->
     </section>
-
     <section id="info">
         <div class="banner">
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-12">
                         <!--<h2>Keep in Touch:</h2>-->
                         <p class="summary_text">
-                            Hash Code es una <strong>competición internacional</strong> de programación en equipos organizada por <strong>Google</strong> para estudiantes y profesionales de la industria (18+). Forma un <strong>equipo</strong> y elige un lenguaje de programación, y nosotros elegimos un problema de ingeniería de la vida real para resolver. ¿Preparado para el reto?
+                            Hash Code es una <strong>competición internacional</strong> de programación en equipos organizada por <strong>Google</strong> para estudiantes y profesionales de la industria (18+). Forma un <strong>equipo</strong>, elige un lenguaje de programación, y <strong>Google</strong> elegirá un problema de ingeniería de la vida real para que vuestro equipo lo resuelva. ¿Preparado para el reto?
                         </p>
                         <p style="margin-top:20px;" class="summary_text">
-                            La competición tiene 2 fases:
+                            La competición tiene 3 fases:
                             <br>
                             <div class="row">
-                                <div class="col-md-4">
-                                    <p class="summary_text"><strong>Jueves, 11 de febrero</strong>
-                                        <br> <span class="time">De las 18:30 a las 22:30 CET </span></p>
+                                <div class="col-md-7">
+                                    <p class="summary_text">
+                                        <strong><a href="https://hashcode.withgoogle.com/signup.html">Registro online</a></strong>: Registrarse es gratis y se realiza en equipos de dos a cuatro personas.
+                                    </p>
                                 </div>
-                                <div class="col-md-offset-1 col-md-7">
-                                    <p class="summary_text"><strong>Ronda de calificación online</strong>: Se participa desde los diferentes hubs. En el caso de que estés en Zaragoza, ¡este es tu hub! ;-)</p>
+                                <div class="col-md-4">
+                                    <p class="summary_text">
+                                        <strong>Hasta el martes, 9 de febrero</strong>
+                                        <br>
+                                        <span class="time">A las 18:00 CET</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p class="summary_text">
+                                        <strong><a href="https://hashcode.withgoogle.com/overview.html#qualification">Ronda de calificación online</a></strong>: Se participa desde los diferentes hubs. En el caso de que estés en Zaragoza, ¡éste es tu hub! ;-)
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="summary_text">
+                                        <strong>Jueves, 11 de febrero</strong>
+                                        <br>
+                                        <span class="time">De las 18:30 a las 22:30 CET</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="row" style="margin-top:10px;">
-                                <div class="col-md-4">
-                                    <p class="summary_text"><strong>Sábado, 19 de marzo</strong>
-                                        <br> <span class="time">De las 18:30 a las 22:30 CET </span></p>
+                                <div class="col-md-7">
+                                    <p class="summary_text">
+                                        <strong><a href="https://hashcode.withgoogle.com/overview.html#final">Ronda final</a></strong>: Los equipos con mayor puntuación serán invitados a <strong><a href="http://www.google.es/about/careers/locations/paris/">Google París</a></strong> para competir en la Ronda Final de la competición.
+                                    </p>
                                 </div>
-                                <div class="col-md-offset-1 col-md-7">
-                                    <p class="summary_text"><strong>Ronda final</strong>: Los equipos con mayor puntuación serán invitados a Google París para competir en la Ronda Final de la competición.</p>
+                                <div class="col-md-4">
+                                    <p class="summary_text">
+                                        <strong>Sábado, 19 de marzo</strong>
+                                        <br>
+                                        <span class="time">De las 18:30 a las 22:30 CET</span>
+                                    </p>
                                 </div>
                             </div>
                         </p>
                     </div>
+                    <!--
                     <div class="col-lg-6">
                         <ul class="list-inline banner-social-buttons">
-
-                            <!--    <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
-                        </li>
-                    </ul>
-                </div>-->
-                    </div>
-
+                             <li>
+                            	<a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        	</li>
+                        	<li>
+                            	<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        	</li>
+                    	</ul>
+                    </div>-->
                 </div>
-
             </div>
+        </div>
     </section>
     <!-- /.banner -->
     <!-- Footer -->
@@ -184,11 +189,11 @@
             <div class="row header">
                 <div class="col-md-6">
                     <center>
-                        <h3>Organiza</h3></center>
+                        <h3>Organiza:</h3></center>
                 </div>
                 <div class="col-md-5" style="margin-left:20px;">
                     <center>
-                        <h3>Colabora</h3></center>
+                        <h3>Colabora:</h3></center>
                 </div>
             </div>
             <div class="row logos">
@@ -205,31 +210,27 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <p class="copyright text-muted small">Copyright &copy; 2016 @borjaeg. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="copyright">Credits: Images from <a href="http://google.com/">Google</a>.</p>
-                    </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="copyright text-muted small">Copyright &copy; 2016 @borjaeg. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="copyright">Credits: Images from <a href="http://google.com/">Google</a>.</p>
                 </div>
             </div>
+        </div>
     </footer>
-
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="js/landing-page.js"></script>
-
 </body>
 
 </html>
