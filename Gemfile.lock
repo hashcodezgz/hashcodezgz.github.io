@@ -95,6 +95,7 @@ GEM
       jekyll (>= 2.0)
     json (1.8.3)
     kramdown (1.9.0)
+    libv8 (3.16.14.19-x86_64-linux)
     liquid (2.6.2)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
@@ -121,12 +122,16 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.8)
     redcarpet (3.3.3)
+    ref (2.0.0)
     safe_yaml (1.0.4)
     sass (3.4.21)
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     terminal-table (1.5.2)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thread_safe (0.3.5)
     toml (0.1.2)
       parslet (~> 1.5.0)
@@ -141,6 +146,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  therubyracer
 
 BUNDLED WITH
-   1.11.2
+   1.15.4
