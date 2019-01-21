@@ -23,7 +23,7 @@
                         <ul class="list-inline intro-social-buttons" style="margin-bottom:50px;">
                             <li>
                                 <h4>
-                                    <a href="https://events.withgoogle.com/hashcode2018-signup/registrations/new/"
+                                    <a href="https://codingcompetitions.withgoogle.com/hashcode/register"
                                        class="btn btn-default btn-lg sign-up"><span class="network-name">Regístrate y únete al Hub Hash Code Zaragoza</span></a>
                                 </h4>
                             </li>
@@ -47,7 +47,7 @@
                     <!--<h2>Keep in Touch:</h2>-->
                     <p class="summary_text">
                         <br/>
-                        Hash Code es una <strong>competición internacional</strong> de programación en equipos
+                        <a href="https://codingcompetitions.withgoogle.com/hashcode">Hash Code</a> es una <strong>competición internacional</strong> de programación en equipos
                         organizada por <strong>Google</strong> para estudiantes y profesionales de la industria (18+).
                         En esta competición se forma un <strong>equipo</strong>, se elige un lenguaje de programación,
                         y <strong>Google</strong> propone un problema de ingeniería de la vida real para que los
@@ -61,13 +61,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="summary_text">
-                        <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLScRRMO1a-Z6jc1VkjyC8ZXiRryD-Tgw7jiCztwrGdxIDeUq2w/viewform">Registro online</a></strong>:
+                        <strong><a href="https://codingcompetitions.withgoogle.com/hashcode/register">Registro online</a></strong>:
                         Registrarse es gratis y se realiza en equipos de dos a cuatro personas.
                     </p>
                 </div>
                 <div class="col-md-6">
                     <p class="summary_text">
-                        <strong>Hasta el 26 de febrero</strong>
+                        <strong>Hasta el 25 de febrero</strong>
                         <br>
                         <span class="time">Apúntate ya y registra tu equipo en el Hub Hash Code Zaragoza. </span>
                     </p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="summary_text">
-                        <strong>Jueves, 1 de marzo</strong>
+                        <strong>Jueves, 28 de febrero</strong>
                         <br>
                         <span class="time">De las 18:30 a las 22:30 CET</span>
                         <br>
@@ -95,17 +95,14 @@
             <div class="row" style="margin-top:10px;">
                 <div class="col-md-6">
                     <p class="summary_text">
-                        <strong><a href="https://hashcode.withgoogle.com/overview.html#final">Ronda final</a></strong>:
-                        Los equipos con mayor puntuación serán invitados a <strong><a target="_blank"
-                                                                                      href="https://www.youtube.com/watch?v=tqK-MPy6XCM">Google Dublín</a></strong> para
+                        <strong>Ronda final</strong>:
+                        Los equipos con mayor puntuación serán invitados a una de las oficinas de Google para 
                         competir en la Ronda Final de la competición.
                     </p>
                 </div>
                 <div class="col-md-6">
                     <p class="summary_text">
-                        <strong>Sábado, 28 de abril</strong>
-                        <br>
-                        <span class="time">De las 09:30 a las 21:30 CET</span>
+                        <strong>Sábado, 27 de abril</strong>
                     </p>
                 </div>
             </div>
@@ -127,7 +124,7 @@
 <!-- /.banner -->
 <!-- Footer -->
 <section id="where" style="margin-bottom:15px;">
-    <div id="map"></div>
+<div id="mapid" style="height: 400px;"></div>
 </section>
 <div class="sponsors">
     <div class="container">
@@ -176,6 +173,19 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="/assets/js/landing-page.js"></script>
+<script>
+
+	var mymap = L.map('mapid').setView([41.683559, -0.884723], 16);
+    L.marker([41.683559, -0.884723]).bindPopup("<b>Sala Tomás Pollán</b><br/>Edificio Betancourt<br>EINA").addTo(mymap)
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+</script>
 </body>
 
 </html>
