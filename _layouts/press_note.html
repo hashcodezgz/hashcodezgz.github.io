@@ -1,3 +1,9 @@
+---
+press_note_dir: /nota_prensa
+---
+
+{% assign press_note_path = site.url | append: layout.press_note_dir %}
+
 <!DOCTYPE html>
 <html>
 {% include head.html %}
@@ -13,7 +19,7 @@
                 <div class="col-lg-12">
                     <p class="summary_text">
                         <br/>
-                        {{page.title}} 
+                        {{page.title}}
                     </p>
                 </div>
             </div>
