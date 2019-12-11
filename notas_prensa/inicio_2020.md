@@ -7,7 +7,7 @@ title: ¡Hashcode 2020 en Zaragoza!
 ---
 
 <div class="row"><div class="col-md-12 img_container_center">
-<img src="hashcodezgz_19.jpg" height="300px"/>
+<img src="{{site.url}}/notas_prensa/inicio_2020/hashcodezgz_19.jpg" height="300px"/>
 </div></div>
 
 ### Descripción
@@ -19,7 +19,7 @@ Hashcode es un concurso de programación, en el que pueden participar **estudian
 ### Hashcode Zaragoza 2019
 
 <div class="row"><div class="col-md-12 img_container_center">
-<img src="statshashcode19_teams.png" height="300px"/>
+<img src="{{site.url}}/notas_prensa/inicio_2020/statshashcode19_teams.png" height="300px"/>
 </div></div>
 
 El pasado mes de marzo de 2019, Hashcode Zaragoza, con el apoyo de **GDG Zaragoza** y **CodeLab**, organizó el hub en el que participaron más de 160 personas, donde 43 equipos lograron entregar al menos una solución, obteniendo un mínimo de 1 punto.
@@ -27,7 +27,7 @@ El pasado mes de marzo de 2019, Hashcode Zaragoza, con el apoyo de **GDG Zaragoz
 Si comparamos Hashcode Zaragoza con el resto de hubs de España, se puede observar que **sólo en este hub (43 equipos) había más equipos exitosos (que entregaron solución) que en Madrid o Barcelona**, con 39 y 37 equipos respectivamente.
 
 <div class="row"><div class="col-md-12 img_container_center">
-<img src="statshashcode19_teamsCom.png" height="300px"/>
+<img src="{{site.url}}/notas_prensa/inicio_2020/statshashcode19_teamsCom.png" height="300px"/>
 </div></div>
 
 #### ¡Somos líderes en innovación!
