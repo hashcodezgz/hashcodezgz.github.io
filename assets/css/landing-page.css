@@ -309,3 +309,7 @@ div.img_container_center {
 h2.big_text {
     color: #333;
 }
+
+img.press_note_img {
+    width: 100%;
+}
