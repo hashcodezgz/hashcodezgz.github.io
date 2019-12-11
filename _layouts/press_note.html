@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+
+{% include navigation.html %}
+
+<section id="info" style="margin-top: 70px;">
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="summary_text">
+                        <br/>
+                        {{page.title}} 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="press_notes">
+    <div class="container">
+        {{content}}
+    </div>
+</div>
+
+{% include footer.html %}
+<!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/landing-page.js"></script>
+</body>
+
+</html>

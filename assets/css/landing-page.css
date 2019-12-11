@@ -279,3 +279,33 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+div.press_note_title {
+    font-weight: 700;
+}
+
+div.press_notes {
+    font-weight: 400;
+}
+
+div.press_notes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.press_notes > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.press_notes_year > h2 {
+    color: #333;
+}
+
+div.img_container_center {
+    text-align: center;
+}
+
+h2.big_text {
+    color: #333;
+}
