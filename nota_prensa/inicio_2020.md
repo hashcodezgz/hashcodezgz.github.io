@@ -14,9 +14,9 @@ title: ¡Hashcode 2020 en Zaragoza!
 
 ### Descripción
 
-El próximo **20 de febrero de 2020** celebraremos en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es) una nueva edición del concurso Hashcode de Google. Un año más somos uno de los hubs elegidos por Google para alojar a los equipos participantes de Zaragoza. Además, este año hemos sido el primer hub elegido en España.
+El próximo **20 de febrero de 2020** hemos organizado una nueva edición del concurso Hashcode de Google, que nos ha elegido otra vez para alojar a los equipos participantes de Zaragoza. Y por quinto año consecutivo, tendrá lugar en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es), en la sala Tomás Pollán del edificio Agustín de Betancourt. Además, este año hemos sido el primer hub en ser elegido de toda España.
 
-Hashcode es un concurso de programación, en el que pueden participar **estudiantes y profesionales** interesados en el sector IT. Consiste en la resolución en un plazo de 4 horas (18:30 a 22:30 hora española) de un reto de ingeniería real. Cualquier participante puede elegir el lenguaje de programación y estrategia que le sea más cómodo.
+[Hashcode](https://goo.gl/hashcode) es un concurso de programación en el que pueden participar tanto **estudiantes como profesionales** interesados en el sector de las Tecnologías de la Información. El objetivo es resolver en 4 horas un reto real de ingeniería: los participantes trabajarán de 18:30 a 22:30 con el lenguaje de programación y estrategia que ellos escojan.
 
 ### Hashcode Zaragoza 2019
 
@@ -24,23 +24,19 @@ Hashcode es un concurso de programación, en el que pueden participar **estudian
 <img src="{{press_note_path}}/inicio_2020/statshashcode19_teams.png" class="press_note_img"/>
 </div></div>
 
-El pasado mes de marzo de 2019, Hashcode Zaragoza, con el apoyo de **GDG Zaragoza** y **CodeLab**, organizó el hub en el que participaron más de 160 personas, donde 43 equipos lograron entregar al menos una solución, obteniendo un mínimo de 1 punto.
-
-Si comparamos Hashcode Zaragoza con el resto de hubs de España, se puede observar que **sólo en este hub (43 equipos) había más equipos exitosos (que entregaron solución) que en Madrid o Barcelona**, con 39 y 37 equipos respectivamente.
+En marzo de 2019, con el apoyo de **GDG Zaragoza** y la asociación universitaria **CodeLab**, Hashcode Zaragoza organizó otro hub en el que participaron más de 160 personas, volviendo a crecer respecto a años anteriores. Los concursantes se dividieron en aproximadamente 50 equipos, de los cuales 43 lograron entregar al menos una solución, ¡más que en cualquier otro hub de España!
 
 <div class="row"><div class="col-md-offset-3 col-md-6  img_container_center">
 <img src="{{press_note_path}}/inicio_2020/statshashcode19_teamsCom.png" class="press_note_img"/>
 </div></div>
 
 #### ¡Somos líderes en innovación!
-Ya hace dos años que tomamos la iniciativa conectando a todos los hubs de España mediante una conexión haciendo uso de la plataforma **Hangouts** de Google. Las dos ediciones que se ha realizado nos hemos conectado con entre 15 y 18 hubs del resto de España, ¡haciendo el concurso aún más divertido!
+Pero si queremos seguir **batiendo récords**, no podíamos mantener las cosas como hasta ahora… Si queremos que vosotros seais más, nosotros **tenemos que ser mejores**. Por eso este año, por cada participante que al acabar el concurso haya enviado solución y tenga al menos un punto, la asociación **CodeLab donará un euro a una ONG**.
 
-### Hashcode Zaragoza 2020
-
-¡Este año vamos a revolucionar de nuevo! Nuestra meta es volver a crear un hub en el que los participantes estén cómodos y puedan aprender, superarse y quedarse con la mejor sensación posible. Para ello haremos uso de nuevo de las instalaciones de la [Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/), en concreto de la Sala Tomás Pollán.
+Y no solo eso. Hace ya dos años que gracias a la plataforma Hangouts de Google nos conectamos con otros hub de Zaragoza, haciendo el concurso mucho más entretenido. 
 
 ---
-Además, este año por primera vez, por cada participante que, al acabar el concurso haya enviado una solución y tenga al menos 1 punto, **CodeLab donará 1 euro** a una ONG.
+Si queréis pasar una tarde entretenida disfrutando de la informática, el Hashcode es vuestro sitio.
 
 ---
 
