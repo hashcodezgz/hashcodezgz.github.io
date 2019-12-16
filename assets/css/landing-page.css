@@ -313,3 +313,28 @@ h2.big_text {
 img.press_note_img {
     width: 100%;
 }
+
+div.social_networks{
+    font-size: 15pt;
+}
+
+div.social_networks div.icon {
+    text-align: right;
+}
+
+div.social_networks i.fa-twitter{
+    color: #26A7DE;
+    align-self: center;
+}
+
+div.social_networks i.fa-facebook{
+    color: #3b5998;
+}
+
+div.social_networks i.fa-paper-plane{
+    color: #0088cc;
+}
+
+div.social_networks i.fa-instagram{
+    color: #8134AF;
+}
