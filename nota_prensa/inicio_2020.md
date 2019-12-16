@@ -31,7 +31,7 @@ En marzo de 2019, con el apoyo de **GDG Zaragoza** y la asociación universitari
 </div></div>
 
 #### ¡Somos líderes en innovación!
-Pero si queremos seguir **batiendo récords**, no podíamos mantener las cosas como hasta ahora… Si queremos que vosotros seais más, nosotros **tenemos que ser mejores**. Por eso este año, por cada participante que al acabar el concurso haya enviado solución y tenga al menos un punto, la asociación **CodeLab donará un euro a una ONG**.
+Pero si queremos seguir **batiendo récords**, no podíamos mantener las cosas como hasta ahora… Si queremos que vosotros seáis más, nosotros **tenemos que ser mejores**. Por eso este año, por cada participante que al acabar el concurso haya enviado solución y tenga al menos un punto, la asociación **CodeLab donará un euro a una ONG**.
 
 Y no solo eso. Hace ya dos años que gracias a la plataforma Hangouts de Google nos conectamos con otros hub de Zaragoza, haciendo el concurso mucho más entretenido. 
 
