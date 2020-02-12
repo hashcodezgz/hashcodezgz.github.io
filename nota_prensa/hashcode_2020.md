@@ -1,6 +1,6 @@
 ---
 layout: press_note
-title: ¡Hashcode 2020 en Zaragoza!
+title: ¡Una semana para Hashcode 2020!
 ---
 
 {% assign press_note_path = site.url | append: layout.press_note_dir %}
@@ -11,9 +11,30 @@ title: ¡Hashcode 2020 en Zaragoza!
 
 ### Descripción
 
-El próximo **20 de febrero de 2020** hemos organizado una nueva edición del concurso Hashcode de Google, que nos ha elegido otra vez para alojar a los equipos participantes de Zaragoza. Y por quinto año consecutivo, tendrá lugar en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es), en la sala Tomás Pollán del edificio Agustín de Betancourt. Además, este año hemos sido el primer hub en ser elegido de toda España.
+Todos los participantes e interesados están citados el próximo **20 de febrero de 2020** en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** para resolver un reto propuesto por Google.
+
+En esta nueva edición del concurso Hashcode de Google, hemos sido elegido otra vez para alojar a los equipos participantes de Zaragoza. Y por quinto año consecutivo, tendrá lugar en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es), en la sala Tomás Pollán del edificio Agustín de Betancourt. Dará comienzo a las 18:00 en una apertura institucional con representantes de CodeLab, Escuela, Universidad y Gobierno de Aragón que tomarán la palabra en dicho acto.
+
+---
+#### ¡Apúntate [aquí](https://codingcompetitions.withgoogle.com/hashcode/register)!
+---
 
 [Hashcode](https://goo.gl/hashcode) es un concurso de programación en el que pueden participar tanto **estudiantes como profesionales** interesados en el sector de las Tecnologías de la Información. El objetivo es resolver en 4 horas un reto real de ingeniería: los participantes trabajarán de 18:30 a 22:30 con el lenguaje de programación y estrategia que ellos escojan.
+
+### Agenda del evento
+17:00 - 18:00 Check in
+
+18:00 - 18:30 Aperture
+
+18:30 - 18:45 Problem revealed & released
+
+18:45 - 21:30 Contest
+
+21:30 - 22:30 Last hour!! (scoreboard is now frozen)
+
+22:40 - 23:00 Top teams announced
+
+Si no tenéis grupo o queréis formar uno, usad nuestra página de [Meetup](https://hashcodezgz.github.io/) para organizaros. Id a este Meetup para obtener más información sobre este evento y conocer cómo fue todo en el Hub Hash Code Zaragoza en ediciones anteriores.
 
 ### Hashcode Zaragoza 2019
 
@@ -38,4 +59,4 @@ Si queréis pasar una tarde entretenida disfrutando de la informática, el Hashc
 ---
 
 
-<h2 class="big_text"> ¡Nos vemos en la EINA el próximo 20 de Febrero! </h2>
+<h2 class="big_text"> ¡Nos vemos en la EINA el próximo 20 de Febrero!</h2>

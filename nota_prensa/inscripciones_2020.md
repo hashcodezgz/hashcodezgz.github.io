@@ -19,7 +19,6 @@ Desde el día 2 de enero de 2020 las inscripciones para el evento HashCode está
 
 ---
 #### ¡Apúntate [aquí](https://codingcompetitions.withgoogle.com/hashcode/register)!
-
 ---
 
 ### Detalles
