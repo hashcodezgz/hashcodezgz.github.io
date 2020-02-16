@@ -11,9 +11,9 @@ title: ¡Una semana para Hash Code 2020!
 
 ### Descripción
 
-Todos los participantes e interesados están citados el próximo **20 de febrero de 2020** en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** para resolver un reto propuesto por Google.
+Todos los participantes e interesados están citados el próximo **20 de febrero de 2020** en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** para resolver un reto propuesto por Google en la edición anual de Hash Code.
 
-En esta nueva edición del concurso Hash Code de Google, hemos sido elegido otra vez para alojar a los equipos participantes de Zaragoza. Y por quinto año consecutivo, tendrá lugar en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es), en la sala Tomás Pollán del edificio Agustín de Betancourt. Dará comienzo a las 18:00 en una apertura institucional con representantes de CodeLab, Escuela, Universidad y Gobierno de Aragón, que tomarán la palabra para dar comienzo al evento.
+En esta nueva edición hemos sido elegido otra vez para alojar a los equipos participantes de Zaragoza. Por quinto año consecutivo, tendrá lugar en la **[Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/)** de la [Universidad de Zaragoza](https://unizar.es), en la sala Tomás Pollán del edificio Agustín de Betancourt. El evento comenzará a las 18:00 con una apertura institucional en la que estarán representantes de CodeLab, la EINA, Universidad y Gobierno de Aragón, que darán comienzo al evento.
 
 ---
 #### ¡Apúntate [aquí](https://codingcompetitions.withgoogle.com/hashcode/register)!
